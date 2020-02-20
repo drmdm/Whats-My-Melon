@@ -12,7 +12,7 @@ check 'which chromedrive' in terminal for chromepath
 
 Need to add the loops to build and append the pickle DF
 
-@author: mogmelon
+@author: drmdm
 """
 
 from selenium import webdriver
@@ -34,7 +34,7 @@ def scrape(search, folder_name):
     url="http://www.bing.com/images/search?q=" + search + "&FORM=HDRSC2"
     #now=datetime.datetime.now()
     #now_str=now.strftime("%Y%m%dT%H%M%S")
-    datadir=('/home/mogmelon/Python/Data/melonID/%s/' % (savedir))
+    datadir=('your_dir/%s/' % (savedir))
     
     #Initiate Selenium browser    
     browser = webdriver.Chrome(chromepath)

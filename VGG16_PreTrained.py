@@ -9,7 +9,7 @@ This Code runs a pretrained VGG16 model on all images in this line:
 Based on:
 https://machinelearningmastery.com/use-pre-trained-vgg-model-classify-objects-photographs/
 
-@author: mogmelon
+@author: drmdm
 """
 
 from keras.preprocessing.image import load_img, img_to_array
@@ -19,15 +19,15 @@ import matplotlib.pyplot as plt
 import numpy as np
 import os
 
-datadir='/home/mogmelon/Python/Projects/MelonID/'
+datadir='your_dir'
 
 model = VGG16()
 print(model.summary())
 plot_model(model, to_file='vgg.png')
 
-for file in os.listdir(datadir+'data/predict/'):
-    filename=file   
-    filepath=datadir + 'data/predict/'+filename
+path=datadir+'/data/RCNN_test/predict/'
+for file in os.listdir(path): 
+    filepath=path+file
 
     # load an image from file
     image = load_img(filepath, target_size=(224, 224))

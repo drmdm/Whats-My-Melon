@@ -11,7 +11,7 @@ https://blog.keras.io/building-powerful-image-classification-models-using-very-l
 https://gist.github.com/fchollet/0830affa1f7f19fd47b06d4cf89ed44d
 IBM AI Engineering Lab DL0101EN-4-1
 
-@author: mogmelon
+@author: drmdm
 """
 
 import numpy as np
@@ -27,7 +27,7 @@ plt.style.use('seaborn-dark')
 
 
 #Split into train, validate and test data folders
-datadir='/home/mogmelon/Python/Projects/MelonID/'
+datadir='your_dir'
 train_data_dir  = datadir+'data/train'
 test_data_dir   = datadir+'data/test'
 
