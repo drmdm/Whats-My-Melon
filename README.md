@@ -51,7 +51,7 @@ To create the image masks I chose 120 images of watermelons and created the mask
 3. [Prediciton Notebook](./maskRCNN_prediction.ipynb)
    *prediciton notebook requires model files which I haven't uploaded yet. 
    
-![Salma Hayek Mask](./images/mask_salma.jpg "Salma Hayek Mask")   
+![Salma Hayek Mask](./images/mask_salma.png "Salma Hayek Mask")   
 
 ## 5. Next Steps
 The next step is to train a multiclass Mask RCNN on watermelon, honeydew and canteloupe and then productionise the model through a webpage or app where the user can upload or take a photo and detect any melons in the image. I'll update the project when it is ready!
