@@ -26,7 +26,7 @@ Model Details:
 
 You can see the notebooks here:
 1. [Training Model](./CNN.py)
-2. [Model Evaluation with Write-up](./CNN_evaluate.ipynb)
+2. [**Model Evaluation with Write-up**](./CNN_evaluate.ipynb)
 3. [Prediction Notebook for you to test](./CNN_prediction.ipynb)
    *prediciton notebook requires model files which I haven't uploaded yet. 
   
@@ -48,11 +48,11 @@ I began setting up my model using the package [Matterport Mask R-CNN](https://gi
 To create the image masks I chose 120 images of watermelons and created the masks using [VGG Image Annotator](http://www.robots.ox.ac.uk/~vgg/software/via/via.html) after manually checking the images I ended up with 80 training images and 20 test images. 
 
 1. [Mask-RCNN Training Notebook (Google Colabs)](./maskRCNN_colab_train.ipynb)
-2. [Evaluation and Write-up](./maskRCNN_evaluate.ipynb)
+2. [**Model Evaluation and Write-up**](./maskRCNN_evaluate.ipynb)
 3. [Prediciton Notebook](./maskRCNN_prediction.ipynb)
    *prediciton notebook requires model files which I haven't uploaded yet. 
    
-![Salma Hayek Mask](./images/mask_salma.jpg "Salma Hayek Mask")   
+![Salma Hayek Mask](./images/mask_salma.png "Salma Hayek Mask")   
 
 ## 5. Next Steps
 The next step is to train a multiclass Mask RCNN on watermelon, honeydew and canteloupe and then productionise the model through a webpage or app where the user can upload or take a photo and detect any melons in the image. I'll update the project when it is ready!
