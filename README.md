@@ -21,7 +21,7 @@ The basic CNN was based on the lab from the Keras course in the [IBM AI Engineer
 
 Model Details:
 - 3 classes: watermelon, honeydew, canteloupe
-- 2200 training images and 500 test images per class
+- 6600 training images and 1500 test images
 - Uses 3 convolutional layers in Keras
 
 You can see the notebooks here:
@@ -31,6 +31,7 @@ You can see the notebooks here:
    *prediciton notebook requires model files which I haven't uploaded yet. 
   
 ![Honeydew Prediction](./images/basic_cnn_mypred_01.png "Honeydew Prediction")
+![Confusion Matrix](./images/cnn_cm.png "Confusion Matrix")
 
 ## 3. Transfer Learning
 Transfer learning uses a pre-trained CNN and allows you to only train the final layer. I had a quick attempt at transfer learning (which performed worse than the basic CNN), but had already come to the conclusion I needed an object detection model for busier images. 
