@@ -45,7 +45,7 @@ This is when I realised the CNN wasn't doing a good job of predicting melons wit
 
 I began setting up my model using the package [Matterport Mask R-CNN](https://github.com/matterport/Mask_RCNN) and the guides provided in the repository. Mask-RCNN is a state-of-the-art object detection model which uses the [ResNet101](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf) model architecture and can be used for transfer learning using weights from the [COCO dataset.](http://cocodataset.org/) 
 
-To create the image masks I chose 120 images of watermelons and created the masks using [VGG Image Annotator](http://www.robots.ox.ac.uk/~vgg/software/via/via.html) after manually checking the images I ended up with 80 training images and 20 test images. 
+To create the image masks I chose 120 images of watermelons and created the masks using [VGG Image Annotator](http://www.robots.ox.ac.uk/~vgg/software/via/via.html) after manually checking the images I ended up with 80 training images and 20 test images. The model achieved a mean absolute precision of 97.5% on the test set.
 
 1. [Mask-RCNN Training Notebook (Google Colabs)](./maskRCNN_colab_train.ipynb)
 2. [**Model Evaluation and Write-up**](./maskRCNN_evaluate.ipynb)
