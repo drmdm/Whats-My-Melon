@@ -25,7 +25,7 @@ Model Details:
 - Uses 3 convolutional layers in Keras
 
 You can see the notebooks here:
-1. [Training Model](./CNN.py)
+1. [Training Model](./melon_CNN.py)
 2. [**Model Evaluation with Write-up**](./CNN_evaluate.ipynb)
 3. [Prediction Notebook for you to test](./CNN_prediction.ipynb)
    *prediciton notebook requires model files which I haven't uploaded yet. 
