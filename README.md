@@ -54,5 +54,13 @@ To create the image masks I chose 120 images of watermelons and created the mask
    
 ![Salma Hayek Mask](./images/mask_salma.png "Salma Hayek Mask")   
 
-## 5. Next Steps
-The next step is to train a multiclass Mask RCNN on watermelon, honeydew and canteloupe and then productionise the model through a webpage or app where the user can upload or take a photo and detect any melons in the image. I'll update the project when it is ready!
+## 5. Multi-class Mask-RCNN
+I have extended the single class Mask RCNN to identify watermelons, canteloupes and honeydews. Due to the similarity of the images the model requires improvements - I'm still working on this. The third iteration is in the notebooks below. 
+
+1. [Multi-class Mask-RCNN Training Notebook (Google Colabs)](./multi_maskRCNN_colab_train.ipynb)
+2. [**Model Evaluation and Write-up**](./multi_maskRCNN_colab_eval.ipynb)
+
+![Three Slices](./images/multi_three_slices.png "Three Slices")   
+
+## 6. Next Steps
+The next step is to productionise the model through a webpage or app where the user can upload or take a photo and detect any melons in the image. I'm intending to use Streanlit for this. I'll update the project when it is ready!
