@@ -63,4 +63,4 @@ I have extended the single class Mask RCNN to identify watermelons, canteloupes 
 ![Three Slices](./images/multi_three_slices.png "Three Slices")   
 
 ## 6. Next Steps
-The next step is to productionise the model through a webpage or app where the user can upload or take a photo and detect any melons in the image. I'm intending to use Streanlit for this. I'll update the project when it is ready!
+The next step is to productionise the model through a webpage or app where the user can upload or take a photo and detect any melons in the image. I'm intending to use Streamlit for this. I'll update the project when it is ready!
