@@ -70,16 +70,20 @@ I have extended the single class Mask RCNN to identify watermelons, canteloupes 
 ![Three Slices](./images/multi_three_slices.png "Three Slices")   
 
 ## 6. Web App - Streamlit/Google Cloud
-<img src="./images/wmm_04.png" width=450>  
-To implement the model I first set up a local web page using the dashboarding tool streamlit [script here](./app_main.py). This step was straight forward and streamlit is very easy to use. Getting the app online using a free tier service was a challenge and took three attempts:
 
-First: Heroku  
+<img src="./images/wmm_04.png" width=450>  
+
+To implement the model I first set up a local web page using the dashboarding tool streamlit. This step was straight forward and streamlit is very easy to use. Getting the app online using a free tier service was a challenge and took three attempts.
+
+[Streamlit Script](./app_main.py)
+
+First: Heroku    
 Heroku is a free web hosting app. The setup is through Git and you provide a few extra files to install required packages and a shell script to launch your app on the server. However, there is a limit to the size of your system and with the model file and packages required for whatsmymelon I was above the limit.  
 
-Second: Amazon Web Services  
+Second: Amazon Web Services    
 This was a lot easier to set up and involves creating a linux virtual machine. I used EC2 to create the system, installed the required packages on the VM and launched the app. Again I was struggling with memory capacity on the free tier and AWS was killing the predictions.
 
-Third: Google Cloud  
+Third: Google Cloud    
 The Google Cloud procedure was quite similar to AWS. Google gives you a $300 limit to use over a year so I could use a system with higher specs. Setting up the VM took about 20 mins to get online. Streamlit uses port 8501 to display the webpage so I opened this port on the firewall settings and the app was ready to go. 
   
 
