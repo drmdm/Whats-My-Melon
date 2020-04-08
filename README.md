@@ -78,19 +78,20 @@ To implement the model I first set up a local web page using the dashboarding to
 [Streamlit Script](./app_main.py)
 
 First: Heroku    
-Heroku is a free web hosting app. The setup is through Git and you provide a few extra files to install required packages and a shell script to launch your app on the server. However, there is a limit to the size of your system and with the model file and packages required for whatsmymelon I was above the limit.  
+Heroku is a free web hosting app. The setup is through Git and you provide a few extra files to install required packages and a shell script to launch your app on the server. However, there is a limit to the size of your system and with the model weights file and required packages, I was above the limit.  
 
 Second: Amazon Web Services    
-This was a lot easier to set up and involves creating a linux virtual machine. I used EC2 to create the system, installed the required packages on the VM and launched the app. Again I was struggling with memory capacity on the free tier and AWS was killing the predictions.
+This was a lot easier to set up and involves creating a linux virtual machine. I used EC2 to create the system, installed the required packages on the VM and launched the app. Again I was struggling with memory capacity on the free tier and the system was killing the predictions due to memory capacity.
 
 Third: Google Cloud    
 The Google Cloud procedure was quite similar to AWS. Google gives you a $300 limit to use over a year so I could use a system with higher specs. Setting up the VM took about 20 mins to get online. Streamlit uses port 8501 to display the webpage so I opened this port on the firewall settings and the app was ready to go. 
   
+ Try the app here: [What's My Melon Web App](http://35.246.42.8:8501/)   
 
 ## 7. Next Steps
-The model still requires fine tuning which I will work on. Mainly to increase the number of predictions for images containing lots of melons and a few misclassification cases. I also need to look into a way to reduce false predictions for non-melons. 
-I will also looking into speeding up the predictions.
+The model still requires fine tuning which I will work on. Mainly to increase the number of predictions for images containing lots of melons and a few misclassification cases. I also need to reduce false predictions for non-melons. 
+I will also look into speeding up the predictions.
 
-For now I need a rest from melons...  
+For now, I need a rest from melons...  
 
 <img src="./images/wmm_02.jpg" width=450>
