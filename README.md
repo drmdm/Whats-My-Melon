@@ -4,7 +4,7 @@
 ![Lots of Melons](./images/mask_lotsofmelons.png "Lots of Melons")
 
 Try the app here: [What's My Melon Web App](http://35.246.42.8:8501/)  
-Or try the Google Colabs prediction notebook here: [Colabs Notebook](https://drive.google.com/open?id=1cdkwNh3GwsSvlErFpTw2jsq7CNLzJINi)
+Or try the Google Colabs prediction notebook here: [Colabs Notebook](https://colab.research.google.com/drive/1cdkwNh3GwsSvlErFpTw2jsq7CNLzJINi#scrollTo=CBy4mWuGDI_8&forceEdit=true&sandboxMode=true)
 
 Following the [IBM AI Engineering Professional Certificate](https://www.coursera.org/professional-certificates/ai-engineer) course covering Keras and seeing an example of Convolutional Neural Networks (CNNs), I was keen to build a CNN project of my own. What I thought would take a few hours turned into a much deeper project as I quickly moved from a basic CNN to state of the art image-segmentation models.
 
@@ -65,7 +65,7 @@ I have extended the single class Mask RCNN to identify watermelons, canteloupes 
 
 1. [Multi-class Mask-RCNN Training Notebook (Google Colabs)](./multi_maskRCNN_colab_train.ipynb)
 2. [**Model Evaluation and Write-up**](./multi_maskRCNN_colab_eval.ipynb)
-3. [Google Colabs Prediction Notebook](https://drive.google.com/open?id=1cdkwNh3GwsSvlErFpTw2jsq7CNLzJINi)
+3. [Google Colabs Prediction Notebook](https://colab.research.google.com/drive/1cdkwNh3GwsSvlErFpTw2jsq7CNLzJINi#scrollTo=CBy4mWuGDI_8&forceEdit=true&sandboxMode=true)
 
 ![Three Slices](./images/multi_three_slices.png "Three Slices")   
 
