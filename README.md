@@ -3,7 +3,7 @@
 
 ![Lots of Melons](./images/mask_lotsofmelons.png "Lots of Melons")
 
-Try the app here: [What's My Melon Web App](http://35.246.42.8:8501/)  
+Try the app here: [What's My Melon Web App](http://35.234.153.136:8501/)  
 Or try the Google Colabs prediction notebook here: [Colabs Notebook](https://colab.research.google.com/drive/1cdkwNh3GwsSvlErFpTw2jsq7CNLzJINi#scrollTo=CBy4mWuGDI_8&forceEdit=true&sandboxMode=true)
 
 Following the [IBM AI Engineering Professional Certificate](https://www.coursera.org/professional-certificates/ai-engineer) course covering Keras and seeing an example of Convolutional Neural Networks (CNNs), I was keen to build a CNN project of my own. What I thought would take a few hours turned into a much deeper project as I quickly moved from a basic CNN to state of the art image-segmentation models.
@@ -86,7 +86,7 @@ This was a lot easier to set up and involves creating a linux virtual machine. I
 Third: Google Cloud    
 The Google Cloud procedure was quite similar to AWS. Google gives you a $300 limit to use over a year so I could use a system with higher specs. Setting up the VM took about 20 mins to get online. Streamlit uses port 8501 to display the webpage so I opened this port on the firewall settings and the app was ready to go. 
   
- Try the app here: [What's My Melon Web App](http://35.246.42.8:8501/)   
+ Try the app here: [What's My Melon Web App](http://35.234.153.136:8501/)   
 
 ## 7. Next Steps
 The model still requires fine tuning which I will work on. Mainly to increase the number of predictions for images containing lots of melons and a few misclassification cases. I also need to reduce false predictions for non-melons. 
